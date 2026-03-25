@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+}
+
+.screen {
+    padding: 20px;
+}
+
+.oculto {
+    display: none;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1db954;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #17a44b;
+}
+
+img {
+    width: 200px;
+    margin: 15px;
+    border-radius: 10px;
+}
