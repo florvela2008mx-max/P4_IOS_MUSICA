@@ -1,0 +1,51 @@
+DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>App de Música</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Pantalla 1 -->
+    <div id="screen1" class="screen">
+        <h1>🎵 Mi App de Música</h1>
+        <h3>Karla</h3>
+
+        <button onclick="irPantalla('screen2')">Artista Favorito</button>
+        <button onclick="irPantalla('screen3')">Canción Favorita</button>
+    </div>
+
+    <!-- Pantalla 2 -->
+    <div id="screen2" class="screen oculto">
+        <h1>Artista Favorito</h1>
+
+        <!-- IMAGEN CORREGIDA -->
+        <img src="artista.jpeg" alt="Artista" width="200">
+
+        <p>
+            Mi cantante favorito es Santa Fe Klan. 
+            Es uno de los cantantes más famosos de rap mexicano.
+        </p>
+
+        <button onclick="irPantalla('screen1')">Volver</button>
+    </div>
+
+    <!-- Pantalla 3 -->
+    <div id="screen3" class="screen oculto">
+        <h1>Canción Favorita</h1>
+
+        <!-- IMAGEN CORREGIDA -->
+        <img src="cancion.jpeg" alt="Canción" width="200">
+
+        <p>
+            Mi canción favorita es "LUNA".
+            Me gusta por su ritmo y energía.
+        </p>
+
+        <button onclick="irPantalla('screen1')">Volver</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
